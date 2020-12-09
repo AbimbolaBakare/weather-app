@@ -41,8 +41,8 @@ export default function Chart(props) {
             height={70}
             options={{
                 maintainAspectRatio: true,
-                duration: 2000
+                duration: 2000,
             }}
-        />
+  />
     )
 }

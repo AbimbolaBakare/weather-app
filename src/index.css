@@ -1,5 +1,5 @@
 body{
-  background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url("./images/weather8.jpg") center center no-repeat fixed;
+  background:linear-gradient( rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.5) ),  url("./images/weather8.jpg") center center no-repeat fixed;
   background-size: cover;
   height: 100vh;
   justify-content: center;

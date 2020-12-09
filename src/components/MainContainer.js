@@ -97,7 +97,7 @@ const WeatherCard = props => {
             </div>
 
             <CardHeader
-                title={'Location:' + ' ' + currentWeather.city + ", " + currentWeather.country}
+                title={currentWeather.city + ", " + currentWeather.country}
                 subheader={<WeatherCardBody currentWeather={currentWeather} />}
             />
             <CardContent>

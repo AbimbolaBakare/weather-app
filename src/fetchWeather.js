@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { createMuiTheme, Container } from "@material-ui/core";
+import { createMuiTheme} from "@material-ui/core";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import Weather from "./components/Weather";
 import NavBar from "./components/Navbar";
@@ -37,26 +37,6 @@ export default function WeatherFetch() {
   const handleCityChange = city => {
     setCity(city);
   };
-
-  const theme = createMuiTheme({
-    typography: {
-      fontFamily: [
-        "Inter",
-        "-apple-system",
-        "BlinkMacSystemFont",
-        '"Helvetica Neue"',
-        "Arial",
-        "sans-serif",
-        '"Apple Color Emoji"',
-        '"Segoe UI Emoji"',
-        '"Segoe UI Symbol"'
-      ].join(","),
-      fontSize: 14,
-      h5: {
-        fontWeight: 600
-      }
-    }
-  });
 
   if (
     (currentWeather && Object.keys(currentWeather).length) ||

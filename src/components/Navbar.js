@@ -1,7 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { AppBar, Button, Toolbar } from "@material-ui/core";
-import logo from "../logo.svg";
+import { AppBar, Toolbar } from "@material-ui/core";
 
 const useStyles = makeStyles(theme => ({
     root: {

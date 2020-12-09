@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { createMuiTheme} from "@material-ui/core";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import Weather from "./components/Weather";
 import NavBar from "./components/Navbar";
